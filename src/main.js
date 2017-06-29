@@ -10,7 +10,7 @@ Vue.use(VueResource);
 Vue.config.productionTip = false
 
 Vue.prototype.helperUrl = function(uri) {
-  return `http://localhost:8080${uri}`;
+  return `https://fiap-java-devops.appspot.com${uri}`;
 };
 
 Vue.prototype.helperImage = function(filename) {
